@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #141e30, #243b55);
+    color: white;
+    line-height: 1.6;
+    min-height: 100vh;
+}
+
+/* Hlavní kontejner */
+.kontejner {
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto;
+    background: #1e293b;
+    border-radius: 20px;
+}
+
+/* Hlavička */
+.hlavicka {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(135deg, #2563eb, #7c3aed);
+}
+
+.avatar {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 5px solid white;
+    margin-bottom: 15px;
+}
+
+.hlavicka h1 {
+    font-size: 36px;
+    margin-bottom: 5px;
+}
+
+.podtitul {
+    font-size: 18px;
+    color: #e0e7ff;
+}
+
+/* Obsah stránky */
+main {
+    padding: 35px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+section h2 {
+    font-size: 26px;
+    color: #60a5fa;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #3b82f6;
+    padding-bottom: 8px;
+}
+
+.karta {
+    background: #334155;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+.karta:hover {
+   
+    background: #3b4c63;
+}
+
+
+
+.patička {
+    background: #0f172a;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.patička h2 {
+    margin-bottom: 20px;
+    color: #60a5fa;
+}
+
+/* Odkazy */
+.odkazy {
+    
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.tlacitko {
+    
+    
+    color: white;
+    background: #2563eb;
+    padding: 12px 22px;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.tlacitko:hover {
+    background: #7c3aed;
+    transform: scale(1.08);
+}
+
+.copyright {
+    color: #94a3b8;
+    font-size: 14px;
+}
